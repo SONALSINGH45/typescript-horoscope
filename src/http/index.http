@@ -1,0 +1,9 @@
+# baseURL
+@baseURL = http://localhost:3000
+###
+#  gethoroscope
+get {{ baseURL }}/gethoroscope
+Content-Type: application/json
+#  getpanchang
+get {{ baseURL }}/getpanchang
+Content-Type: application/json
