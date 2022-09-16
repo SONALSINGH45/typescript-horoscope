@@ -91,7 +91,7 @@ class IndexController {
       //   res.send(500).statusMessage('Something went wrong, please try again later');
       //   return;
       // }
-
+console.log("dged")
       res.status(200).send(response.data);
     }
   };
